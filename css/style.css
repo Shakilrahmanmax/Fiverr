@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz--box-sizing: border-box;
+}
+body{
+    font-family: 'Slabo 27px', serif;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 6px 0;
+}
+header h1{
+    /* background-color: black; */
+    color: white;
+    font-size: 22px;
+}
+header h1 a{
+    color: seagreen;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+nav{
+    border-bottom: 1px solid #969696;
+}
+nav ul{
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #333;
+    font-size: 20px;
+    padding: 8px 20px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: seagreen;
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    padding: 50px 0;
+
+}
+.heading h1{
+    font-size: 22px;
+    color: #000;
+}
+.heading p{
+    font-size: 14px;
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 15px;
+}
+aside ul{
+    padding: 0;
+}
+aside ul li{
+    list-style: none;
+}
+aside ul li a{
+    color: #666;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 0;
+    display: block;
+}
+aside ul li a:hover{}
+
+.content{
+    width: 80%;
+    float: left;
+    padding: 15px;
+}
+.content .content-box{
+    width: 33.33%;
+    float: left;
+}
+.content .content-box img{
+    max-width: 100%;
+    padding: 8px;
+}
+.content .content-box img:hover{
+    opacity: 0.5;
+}
+.content .content-box h4{
+    color: #666;
+    font-size: 14px;
+}
+
+.new{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px; 
+}
+.one{
+    width: 33.33%;
+    float: left;
+
+}
+.one h3{
+    font-size: 22px;
+}
+.one p{
+    font-size: 18px;
+    color: #666;
+}
+
+.new .two{
+    background-color: #f2ebeb;
+    overflow: hidden;
+    padding: 90px 0;
+}
